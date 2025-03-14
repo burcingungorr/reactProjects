@@ -1,11 +1,12 @@
 import React from "react";
 
-const Square = ({ piece, row, col, isSelected, isValidMove, onClick }) => {
+const Square = ({ piece, row, col, isSelected, isValidMove, noMove, onClick }) => {
   return (
     <div
       className={`square ${(row + col) % 2 === 0 ? "light" : "dark"} 
         ${isSelected ? "selected" : ""} 
-        ${isValidMove ? "valid-move" : ""}`}
+        ${isValidMove ? "valid-move" : ""} 
+        ${noMove ? "no-move" : ""}`} 
       onClick={() => onClick(row, col)}
     >
       {piece && (

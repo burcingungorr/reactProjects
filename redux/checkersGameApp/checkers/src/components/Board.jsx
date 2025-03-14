@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { selectPiece, movePiece, resetGame } from "../redux/gameSlice";
 import Square from "./Square";
+import { calculateValidMoves } from "../components/gameActions";
 
 const Board = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const Board = () => {
       if (validMoves.some((move) => move.capture) && !validMoves.some((move) => move.row === row && move.col === col)) {
         return;
       }
-  
+
       dispatch(
         movePiece({
           fromRow: selectedPiece.row,
@@ -31,7 +32,8 @@ const Board = () => {
       <div className="board">
         {board.map((rowArr, rowIndex) =>
           rowArr.map((piece, colIndex) => {
-            const noMove = selectedPiece && selectedPiece.row === rowIndex && selectedPiece.col === colIndex && validMoves.length === 0;
+            const isSelected = selectedPiece && selectedPiece.row === rowIndex && selectedPiece.col === colIndex;
+            const noMove = isSelected && validMoves.length === 0;
 
             return (
               <Square
@@ -39,7 +41,7 @@ const Board = () => {
                 piece={piece}
                 row={rowIndex}
                 col={colIndex}
-                isSelected={selectedPiece && selectedPiece.row === rowIndex && selectedPiece.col === colIndex}
+                isSelected={isSelected}
                 isValidMove={validMoves.some((move) => move.row === rowIndex && move.col === colIndex)}
                 noMove={noMove} 
                 onClick={handleClick}

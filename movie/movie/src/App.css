@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.search{
+height: 600px;
+width:75%;
+overflow: hidden;
+border: 3px solid black;
+margin:0 auto;
+}
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content:space-evenly;
+  color: rgb(215, 213, 213);
+  font-size: 15px;
+}
+.vr {
+  border-left: 2px solid #8B0000;
+  height: 150px;
+}

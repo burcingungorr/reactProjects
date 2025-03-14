@@ -1,0 +1,123 @@
+/* index.css */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(161, 209, 239);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
+  
+  .game-board h1 {
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .game-board p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .game-board input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #969696;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .game-board button {
+    background: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .game-board button:hover {
+    background: #e5533d;
+  }
+
+  .result-screen {
+    text-align: center;
+  }
+  
+  .result-screen h2 {
+    font-size: 22px;
+    color: #2c3e50;
+  }
+  
+  .result-screen p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .result-screen button {
+    background-color:#2c3e50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .result-screen button:hover {
+    background: #2980b9;
+  }
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .wrong {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .current-word {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  .word-container{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #2c3e50;
+  }
+  .input-time{
+    display: flex;
+    gap: 10px;
+  }
+  .input-time p{
+    border: 1px solid white;
+    background-color:#2c3e50; 
+    color: white;
+    padding: 10px;
+    
+  }

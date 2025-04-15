@@ -1,12 +1,18 @@
-# React + Vite
+📇 Contact App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Redux kullanımıyla geliştirilmiş temel bir İletişim Uygulamasıdır!
+Kullanıcılar, kişi bilgilerini ekleyebilir, düzenleyebilir ve silebilir.
+Redux, uygulamanın durum yönetimini sağlamak için kullanılmıştır.
 
-Currently, two official plugins are available:
+🚀 Özellikler
+📝 Yeni kişi ekleyebilme.
+✏️ Kişi bilgilerini düzenleyebilme.
+❌ Kişi silme.
+🔄 Redux ile merkezi durum yönetimi.
+📱 Kullanıcı dostu ve sade arayüz.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💡 Proje Amacı
+Bu proje, Redux kullanımını daha iyi kavrayabilmek amacıyla basit bir kişi yönetim uygulaması olarak tasarlanmıştır.
+Uygulama, Redux’un state yönetimiyle nasıl çalıştığını anlamanızı sağlayacak ve temel veri akışını öğretecektir.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Ekran görüntüsü 2025-03-14 164220](https://github.com/user-attachments/assets/a8ff7005-cd18-4b7c-91bf-eb8c48eebfc8)

@@ -1,4 +1,5 @@
 🎬 Movie Öneri Sitesi
+
 Bu proje, kullanıcıların film keşfetmesini kolaylaştıran bir film öneri platformudur!
 Film API’leri üzerinden veri çekilerek kullanıcılara güncel film listeleri sunulur.
 Kullanıcılar profil oluşturabilir ve favoriler, izlenenler, daha sonra izle listeleri hazırlayabilir.

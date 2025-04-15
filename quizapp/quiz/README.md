@@ -1,4 +1,5 @@
 ❓ Basit Quiz Uygulaması
+
 Bu proje, kullanıcıların soru-cevap yöntemiyle bilgi test edebileceği basit bir quiz uygulamasıdır!
 Sorular ve cevaplar önceden belirlenmiş olup, kullanıcılar seçim yaparak doğru cevabı bulmaya çalışır.
 

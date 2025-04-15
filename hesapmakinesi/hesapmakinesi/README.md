@@ -1,4 +1,5 @@
 🧮 Basit Hesap Makinesi
+
 Bu proje, temel matematik işlemlerini hızlı ve pratik bir şekilde gerçekleştirmek için tasarlanmış basit bir web tabanlı hesap makinesidir!
 Kullanıcılar toplama, çıkarma, çarpma ve bölme işlemlerini kolayca gerçekleştirebilir.
 
